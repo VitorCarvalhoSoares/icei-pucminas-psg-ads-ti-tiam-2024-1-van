@@ -1,11 +1,15 @@
 # Van Comigo
 
 `CURSO`
+
 Análise e Desenvolvimento de Sistemas
 
 `DISCIPLINA`
+
 Trabalho Interdisciplinar: Aplicação Móvel
+
 `SEMESTRE`
+
 4º Semestre
 
 O Projeto 'Van Comigo' será focado em um aplicativo mobile que permitirá aos motoristas de Van Escolar monitorar e gerenciar melhor os estudantes e suas idas e vindas diárias, bem como aos estudantes o acesso a localização da van e outros meios que colaborem para melhorar a comunicação e gerenciamento entre motorista e estudante.
