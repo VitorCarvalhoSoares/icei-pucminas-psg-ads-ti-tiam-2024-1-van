@@ -1,23 +1,24 @@
-# TÍTULO DO PROJETO
+# Van Comigo
 
-`CURSO`
+`Análise e Desenvolvimento de Sistemas`
 
-`DISCIPLINA`
+`Trabalho Interdisciplinar: Aplicação Móvel`
 
-`SEMESTRE`
+`4º Semestre`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+O Projeto 'Van Comigo' será focado em um aplicativo mobile que permitirá aos motoristas de Van Escolar monitorar e gerenciar melhor os estudantes e suas idas e vindas diárias, bem como aos estudantes o acesso a localização da van e outros meios que colaborem para melhorar a comunicação e gerenciamento entre motorista e estudante.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Marcos Rocha Simões Araujo
+* Pablo Lorran de Araújo Lopes
+* Lêda Lacerda Bombinho do Val
+* Rafael Ricardo de Oliveira Goulart
+* Vitor Carvalho Soares de Paula
 
 ## Orientador
 
-* Nome completo do professor 1
+* Pedro Felipe Alves de Oliveira
 
 ## Instruções de utilização
 
