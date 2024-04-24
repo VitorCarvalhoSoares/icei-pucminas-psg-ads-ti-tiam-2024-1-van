@@ -12,7 +12,7 @@ Trabalho Interdisciplinar: Aplicação Móvel
 
 4º Semestre
 
-O Projeto 'Van Comigo' será focado em um aplicativo mobile que permitirá aos motoristas de Van Escolar monitorar e gerenciar melhor os estudantes e suas idas e vindas diárias, bem como aos estudantes o acesso a localização da van e outros meios que colaborem para melhorar a comunicação e gerenciamento entre motorista e estudante.
+O ‘Van Comigo’ é um aplicativo inovador que transforma a interação entre motoristas de vans escolares e estudantes. Ele permite o rastreamento em tempo real da van, comunicação eficiente entre motorista e aluno e gerenciamento de pagamentos, tudo em um só lugar. É uma solução completa que promete tornar o transporte escolar mais organizado e menos estressante.
 
 ## Integrantes
 
