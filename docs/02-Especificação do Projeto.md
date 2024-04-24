@@ -8,37 +8,43 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+### Persona 1:
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+Motorista da Van Escolar (Carlos): Carlos tem 50 anos e é proprietário e motorista de uma van escolar. Ele é responsável por transportar alunos de suas casas para a escola e vice-versa. Carlos é organizado e preza pela segurança e pontualidade. Ele luta para manter um registro atualizado de quais alunos estarão na van a cada dia e precisa de uma maneira eficiente de gerenciar os pagamentos mensais.
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+#### Mapa de empatia:
+
+| Pensa | Sente | Vê | Faz |
+| --- | --- | --- | --- |
+| “Eu preciso de uma maneira mais eficiente de rastrear a presença dos alunos e gerenciar os pagamentos.” | Frustração com o processo manual atual de rastreamento de presenças e pagamentos. | Alunos entrando e saindo da van. | Registra presenças por mensagens. |
+| “Seria ótimo se eu pudesse fazer tudo isso em um único lugar.” | Preocupação em garantir a organização de seu transporte. | Pais ou Alunos tentando comunicar mudanças de planos. | Resolve tudo por ligações ou mensagens de texto. |
+| “Eu gostaria de ter uma maneira de comunicar mudanças de rota para os alunos.” | Ansiedade sobre atrasos e mudanças de rota. | Outros motoristas de van escolar enfrentam desafios semelhantes. | Gasta um tempo extra todos os dias organizando a logística. |
+
+### Persona 2:
+Estudante Universitário (Lucas): Lucas tem 20 anos e é um estudante universitário que usa a van escolar todos os dias para ir à universidade. Lucas é responsável por informar ao motorista quando ele não precisará da van.
+
+#### Mapa de empatia:
+| Pensa | Sente | Vê | Faz |
+| --- | --- | --- | --- |
+| “Eu preciso de uma maneira fácil de informar quando não vou precisar da van.” | Ansiedade para comunicar mudanças de planos para o motorista. | Outros Alunos com a mesma dificuldade. | Comunica-se diretamente com o motorista para informar mudanças de planos. |
+| “Eu gostaria de ter uma maneira de rastrear a localização da van.” | Ansiedade sobre a possibilidade de perder a van. | Amigos usando aplicativos para outros serviços de transporte. | Envia mensagem ao motorista para saber se está a caminho. |
+
+
+
+
 
 ## Histórias de Usuários
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+| EU COMO... | QUERO/PRECISO... | PARA... |
+| --- | --- | --- |
+| Motorista da van escolar | Registrar quais alunos estão na van todos os dias | Que eu possa manter um controle preciso. |
+| Motorista da van escolar | Receber notificações quando um aluno não for pegar a van | Que eu possa ajustar minha rota conforme necessário |
+| Motorista da van escolar | Quero uma maneira fácil de gerenciar e rastrear pagamentos | Garantir que estou sendo pago corretamente e a tempo. |
+| Estudante universitário | Informar facilmente quando não vou precisar da van escolar | O motorista seja notificado |
+| Estudante universitário | Fazer pagamentos facilmente através do aplicativo | Não ter que me preocupar em ter dinheiro físico. |
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
 
 ## Modelagem do Processo de Negócio 
 
