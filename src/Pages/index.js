@@ -1,9 +1,9 @@
 import Signup from "./Signup"
-import Welcome from "./Welcome"
-import Login from "./Login"
+import WelcomeScreen from "./WelcomeScreen"
+import LoginScreen from "./LoginScreen"
 
 export {
-    Login,
-    Welcome,
+    LoginScreen,
+    WelcomeScreen,
     Signup
 }

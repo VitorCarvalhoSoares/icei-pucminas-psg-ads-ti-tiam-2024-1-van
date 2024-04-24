@@ -1,7 +1,8 @@
 import { createUserWithEmailAndPassword } from "firebase/auth";
 import React, { useState } from "react";
 import { View, TextInput, Button, Alert, Text, StyleSheet } from "react-native";
-import { auth } from "../Database/firebaseConfig";
+import { auth, db } from "../Database/firebaseConfig";
+import { collection, addDoc } from "firebase/firestore";
 
 const Signup = () => {
   const [email, setEmail] = useState("");
@@ -9,7 +10,7 @@ const Signup = () => {
   const [name, setName] = useState("");
   const [phone, setPhone] = useState("");
 
-  const handleLogin = () => {
+  const handleSignup = async() => {
     createUserWithEmailAndPassword(auth, email, password)
       .then((userCredential) => {
         // Signed up
@@ -22,6 +23,18 @@ const Signup = () => {
         const errorMessage = error.message;
         console.log(errorMessage)
       });
+
+      try {
+        const docRef = await addDoc(collection(db, "user"), {
+          name: name,
+          email: email,
+          password: password,
+          phone: phone
+        });
+        console.log("Document written with ID: ", docRef.id);
+      } catch (e) {
+        console.error("Error adding document: ", e);
+      }
   };
 
   return (
@@ -29,7 +42,7 @@ const Signup = () => {
       <Text style={styles.title}>Cadastre-se</Text>
       <TextInput
         value={name}
-        onChangeText={(text) => setEmail(text)}
+        onChangeText={(text) => setName(text)}
         placeholder={"Digite seu Nome"}
         style={styles.input}
       />
@@ -48,12 +61,11 @@ const Signup = () => {
       />
       <TextInput
         value={phone}
-        onChangeText={(text) => setPassword(text)}
+        onChangeText={(text) => setPhone(text)}
         placeholder={"Digite seu número de celular"}
-        secureTextEntry={true}
         style={styles.input}
       />
-      <Button title={"Cadastrar"} onPress={handleLogin} color="#841584" />
+      <Button title={"Cadastrar"} onPress={handleSignup} color="#841584" />
     </View>
   );
 };
