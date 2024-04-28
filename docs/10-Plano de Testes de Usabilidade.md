@@ -1,11 +1,28 @@
 # Plano de Testes de Usabilidade
 
-O teste de usabilidade permite avaliar a qualidade da interface com o usuário da aplicação interativa. O Plano de Testes de Software é gerado a partir da especificação do sistema e consiste em casos de testes que deverão ser executados quando a implementação estiver parcial ou totalmente pronta.
+Testes de Funcionalidades:
 
-As referências abaixo irão auxiliá-lo na geração do artefato "Plano de Testes de Usabilidade".
+Cadastro de Usuário:
 
-> **Links Úteis**:
-> - [Teste De Usabilidade: O Que É e Como Fazer Passo a Passo (neilpatel.com)](https://neilpatel.com/br/blog/teste-de-usabilidade/)
-> - [Teste de usabilidade: tudo o que você precisa saber! | by Jon Vieira | Aela.io | Medium](https://medium.com/aela/teste-de-usabilidade-o-que-voc%C3%AA-precisa-saber-39a36343d9a6/)
-> - [Planejando testes de usabilidade: o que (e o que não) fazer | iMasters](https://imasters.com.br/design-ux/planejando-testes-de-usabilidade-o-que-e-o-que-nao-fazer/)
-> - [Ferramentas de Testes de Usabilidade](https://www.usability.gov/how-to-and-tools/resources/templates.html)
+- Verificar se o processo de cadastro de usuários (estudantes, motoristas, administradores) está funcionando corretamente.
+- Testar se os campos obrigatórios estão sendo validados adequadamente.
+- Verificar se as informações do usuário são armazenadas corretamente no banco de dados.
+
+Agendamento de Viagens:
+
+- Testar a funcionalidade de agendamento de viagens para estudantes e motoristas.
+- Verificar se os horários disponíveis estão sendo exibidos corretamente.
+- Testar a capacidade de reserva de assentos e cancelamento de viagens.
+
+Rastreamento de Vans:
+
+- Testar se o sistema é capaz de rastrear a localização das vans em tempo real.
+- Verificar a precisão das informações de localização apresentadas aos usuários.
+- Testar a atualização automática da localização das vans.
+
+Comunicação e Notificações:
+
+- Testar a funcionalidade de comunicação entre estudantes, motoristas e administradores.
+- Verificar se as notificações são enviadas corretamente para informar sobre mudanças de horário, cancelamentos, etc.
+- Testar a integração com diferentes canais de comunicação (por exemplo, e-mail, SMS, notificações push).
+
