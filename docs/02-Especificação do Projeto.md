@@ -117,7 +117,8 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
 |01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+|02| O desenvolvimento do aplicativo deve aderir a um orçamento pré-estabelecido.
+|03| O aplicativo deve cumprir todas as regulamentações locais e nacionais relacionadas ao transporte de passageiros, privacidade de dados e transações financeiras eletrônicas. 
 
 Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
 
