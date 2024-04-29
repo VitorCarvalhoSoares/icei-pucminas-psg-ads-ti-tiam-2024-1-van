@@ -28,6 +28,9 @@ O Esquema Relacional corresponde à representação dos dados em tabelas juntame
 
 Entregar um arquivo banco.sql contendo os scripts de criação das tabelas do banco de dados. Este arquivo deverá ser incluído dentro da pasta src\bd.
 
+Arquivo SQL: 
+![Scripts de criação das tabelas do banco de dados](../src/Database/banco.sql)
+
 ## Tecnologias Utilizadas
 
 Descreva aqui qual(is) tecnologias você vai usar para resolver o seu problema, ou seja, implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
