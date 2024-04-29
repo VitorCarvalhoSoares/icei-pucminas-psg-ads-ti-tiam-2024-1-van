@@ -16,7 +16,7 @@ CREATE TABLE Van (
     FOREIGN KEY (ID_Motorista) REFERENCES Motorista(ID_Motorista)
 );
 
-CREATE TABLE Motorista_Dirige_Van (
+CREATE TABLE Motorista_Conduz_Van (
     ID_Motorista INT,
     ID_Van INT,
     Data DATE,
